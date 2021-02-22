@@ -10,6 +10,7 @@ gem 'faker'
 gem 'graphql'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
+gem 'rack-cors'
 
 group :development, :test do
   gem 'pry-rails'
